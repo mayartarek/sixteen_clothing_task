@@ -1,0 +1,173 @@
+.commonspaceline{
+    display: flex;
+
+    justify-content: space-between;
+}
+.container {
+  max-width: 1200px !important;
+width: 100% !important;
+}
+
+h3{
+    font-size: 16px !important;
+    color: #1a6692;
+    font-weight: 100;
+    margin-bottom: 30px !important;
+}
+
+h2 {
+
+    font-size: 28px;
+    font-weight: 500;
+    color: #1e1e1e;
+   
+}
+.navbar{
+
+    a{
+        color: honeydew;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+
+.div-slider {
+    img {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        background-size: cover;
+    }
+
+    .carousel-indicators {
+        li {
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+        }
+    }
+
+    .carousel-caption {
+        top: 50%;
+        transform: translateY(-15%);
+
+        h1 {
+           font-size: 53px;
+            letter-spacing: 1.5px;
+        }
+
+        h2 {
+            color: #f33f3f;
+            font-size: 30px;
+        }
+    }
+}
+
+.product {
+    display: block;
+    margin-top: 100px;
+
+   
+       .header{
+      @extend .commonspaceline;
+       
+        a{
+            color: #f33f3f;
+            font-size: 18px;
+            font-weight: bold;
+             margin-bottom: 15px;
+        }
+        
+       
+       }
+
+       .grid{
+        display: grid;
+         grid-gap: 30px;
+         grid-row: 30px;
+         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+         .item-product{
+             margin: 12px;
+             padding: 12px;
+             border: 1px solid #ece2e2;
+            h4{
+                font-size: 16px;
+            }
+             
+             img {
+                width: 100%;
+               
+              
+                
+            }
+            
+            span{
+                
+                color: #f33f3f;
+              
+            }
+         }
+    }
+   
+    }
+
+ .about{
+      margin-top: 100px;
+      .a button{
+        margin-top: 16px;
+        background-color: #f33f3f;
+        color: white;
+        border: none;
+        font-size: 20px;
+        border-radius: 6px;
+       padding: 12px;
+        width:auto;
+    }
+    .a:hover button{
+        background-color: black;
+    }
+   .details{
+       display: flex;
+       margin: 100px 0px;
+
+       ul{
+           margin-top: 35px;
+         list-style-type: square;
+         
+         padding-inline-start: 20px;
+          
+           a{
+            font-size: 14px;
+            color: #4a4a4a;
+           }
+           a:hover{
+            color: #f33f3f;
+            text-decoration: none;
+           }
+        }
+     
+      
+        
+       }
+
+      .creative{
+@extend .commonspaceline;
+    margin: 100px 0px;
+    padding:   50px ;
+    background-color:#f7f7f7;
+
+    h3{
+        font-size: 20px !important;
+    }
+    
+      } 
+     
+   
+    }
+    footer{
+        text-align: center;
+        color: #4a4a4a;
+        margin: 50px 0;
+
+    }
