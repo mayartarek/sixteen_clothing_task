@@ -25,6 +25,7 @@
   color: #f7f7f7;
   font-weight: bold;
   text-decoration: none;
+  padding-bottom: 11px;
 }
 
 .navbar .navbar-collapse a:hover {

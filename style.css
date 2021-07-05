@@ -1,7 +1,7 @@
 @import url(navstyle.css);
-.commonspaceline, .product .header, .about .creative {
+.commonspaceline, .about .creative {
   display: flex;
-  justify-content: space-between;
+  margin: 19px 0px;
 }
 
 .container {
@@ -66,15 +66,22 @@ h2 {
   margin-top: 100px;
 }
 
+.product .header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
 .product .header a {
   color: #f33f3f;
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-left: auto;
 }
 
 .product .item-product {
-  margin: 12px;
   padding: 12px;
   border: 1px solid #ece2e2;
 }
@@ -83,20 +90,37 @@ h2 {
   font-size: 16px;
 }
 
+.product .item-product a {
+  font-size: 16px !important;
+  color: #1a6692;
+  font-weight: 200;
+  text-decoration: none;
+  margin-right: auto;
+}
+
+.product .item-product p {
+  color: gray;
+}
+
 .product .item-product img {
   width: 100%;
 }
 
 .product .item-product span {
   color: #f33f3f;
+  margin-left: auto;
 }
 
 .about {
   margin-top: 100px;
 }
 
+.about h2 {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 20px;
+}
+
 .about .a button {
-  margin-top: 16px;
   background-color: #f33f3f;
   color: white;
   border: none;
@@ -112,7 +136,9 @@ h2 {
 
 .about .details {
   display: flex;
-  margin: 100px 0px;
+  margin-top: 100px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 100px;
 }
 
 .about .details ul {
@@ -121,7 +147,7 @@ h2 {
   padding-inline-start: 20px;
 }
 
-.about .details ul a {
+.about .details ul span {
   font-size: 14px;
   color: #4a4a4a;
 }
@@ -135,6 +161,19 @@ h2 {
   margin: 100px 0px;
   padding: 50px;
   background-color: #f7f7f7;
+}
+
+.about .creative .text {
+  display: flex;
+  align-items: center;
+}
+
+.about .creative a {
+  margin-left: auto;
+}
+
+.about .creative p {
+  margin: 0px;
 }
 
 .about .creative h3 {

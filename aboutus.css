@@ -25,11 +25,15 @@ h4 {
 
 .page-head {
   background-image: url(assets/images/about-heading.jpg);
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-items: center;
+  align-items: center;
   text-align: center;
-  padding: 210px 0px 130px 0px;
+  height: 500px;
+  min-height: 500px;
 }
 
 .page-head h1 {
@@ -47,9 +51,16 @@ h4 {
   margin-top: 100px;
 }
 
+.background h2 {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 30px;
+}
+
 .background .details {
   margin-top: 50px;
   display: flex;
+  padding-bottom: 67px;
+  border-bottom: 1px solid #eee;
 }
 
 .background .details .what {
@@ -93,11 +104,17 @@ h4 {
   margin-top: 100px;
 }
 
+.members h2 {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 30px;
+}
+
 .members .grid {
   display: grid;
   grid-gap: 30px;
   grid-row: 30px;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  margin-top: 41px;
 }
 
 .members .grid .member-card {
@@ -182,11 +199,18 @@ h4 {
   margin-top: 100px;
 }
 
+.partners h2 {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 30px;
+}
+
 .partners .img-grid {
   display: grid;
-  grid-row: 20px;
+  grid-gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
   margin: 44px 0px 80px 0px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 54px;
 }
 
 footer {
