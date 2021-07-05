@@ -1,3 +1,4 @@
+@import url(navstyle.css);
 .commonspaceline, .product .header, .about .creative {
   display: flex;
   justify-content: space-between;
@@ -21,10 +22,11 @@ h2 {
   color: #1e1e1e;
 }
 
-.navbar a {
-  color: honeydew;
-  font-size: 16px;
-  font-weight: bold;
+.grid {
+  display: grid;
+  grid-gap: 30px;
+  grid-row: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .div-slider img {
@@ -32,6 +34,10 @@ h2 {
   object-fit: cover;
   height: 100%;
   background-size: cover;
+}
+
+.div-slider .carousel-indicators {
+  margin-bottom: 63px;
 }
 
 .div-slider .carousel-indicators li {
@@ -67,28 +73,21 @@ h2 {
   margin-bottom: 15px;
 }
 
-.product .grid {
-  display: grid;
-  grid-gap: 30px;
-  grid-row: 30px;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-}
-
-.product .grid .item-product {
+.product .item-product {
   margin: 12px;
   padding: 12px;
   border: 1px solid #ece2e2;
 }
 
-.product .grid .item-product h4 {
+.product .item-product h4 {
   font-size: 16px;
 }
 
-.product .grid .item-product img {
+.product .item-product img {
   width: 100%;
 }
 
-.product .grid .item-product span {
+.product .item-product span {
   color: #f33f3f;
 }
 

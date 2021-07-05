@@ -1,0 +1,35 @@
+.navbar {
+    position: fixed;
+    z-index: 1000;
+    
+    .title {
+        font-size: 24px;
+        color: #f7f7f7;
+        font-weight: bold;
+        text-decoration: none;
+        span{
+            padding: 5px;
+            color:   #f33f3f;
+        }
+    }
+  .navbar-collapse  {
+ 
+    align-items: end;
+    justify-content: flex-end;
+
+    a{
+        font-size: 18px;
+        color: #f7f7f7;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    a:hover{
+        border-bottom:3px solid #f33f3f; 
+        
+    }
+    li{
+        margin-right: 50px;
+        
+    }
+  }   
+}

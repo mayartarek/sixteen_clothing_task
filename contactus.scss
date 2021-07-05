@@ -1,0 +1,132 @@
+@import url(navstyle.css);
+
+.container {
+    max-width: 1200px !important;
+    width: 100% !important;
+}
+
+.page-head {
+    background-image: url(assets/images/contact-heading.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 210px 0px 130px 0px;
+
+    h1 {
+        font-size: 53px;
+        letter-spacing: 1.5px;
+        color: white;
+    }
+
+    h2 {
+        color: #f33f3f;
+        font-size: 30px;
+    }
+}
+
+h3 {
+    font-size: 16px !important;
+    color: #1a6692;
+    font-weight: 100;
+    margin-bottom: 30px !important;
+}
+
+.location {
+    margin-top: 100px;
+   .location-details{
+
+    display: flex;
+    .map {
+        width: 300%;
+        height: 400px;
+    }
+    .about-office {
+        margin-left: 27px;
+        display: block;
+
+        ul {
+            display: flex;
+            list-style-type: none;
+
+            li {
+                margin-right: 12px;
+            }
+
+            a {
+                color: black;
+                font-size: 25px;
+                text-align: center;
+                width: 30px;
+                background-color: #eee;
+                line-height: 50px;
+
+                .fa {
+                    font-size: 30px;
+                    width: 50px;
+                    height: 50px;
+                    text-align: center;
+                    text-decoration: none;
+                    margin: 5px 2px;
+                }
+            }
+
+            a:hover {
+                background-color: #f33f3f;
+                color: white;
+            }
+        }
+    }
+   }
+
+}
+
+.customers {
+    margin-top: 100px;
+
+    .img-grid {
+        display: grid;
+        grid-row: 20px;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
+        margin: 44px 0px 80px 0px;
+    }
+}
+.message{
+    margin-top: 100px;
+    .form-details{
+        display: flex;
+        form{
+            width: 74%;
+            button{
+                border: none;
+                padding: 3px 8px;
+                color: white;
+                font-size: 12;
+                background-color: #f33f3f;
+                font-size: 21px;
+                border-radius: 5px;
+                margin: 12px 0px;
+            }
+        }
+        .slide{
+            padding-left: 30px;
+            span{
+         color: #1a6692;
+     }
+     span:hover{
+         color: #f33f3f;
+         cursor: pointer;
+     }
+     p{
+         display: none;
+     }
+        }
+     
+    }
+}
+
+footer {
+    text-align: center;
+    color: #4a4a4a;
+    margin: 50px 0;
+}

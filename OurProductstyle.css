@@ -1,0 +1,25 @@
+@import url(navstyle.css);
+.container {
+  max-width: 1200px !important;
+  width: 100% !important;
+}
+
+.page-head {
+  background-image: url(assets/images/products-heading.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 210px 0px 130px 0px;
+}
+
+.page-head h1 {
+  font-size: 53px;
+  letter-spacing: 1.5px;
+  color: white;
+}
+
+.page-head h2 {
+  color: #f33f3f;
+  font-size: 30px;
+}
