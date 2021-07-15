@@ -37,14 +37,27 @@ h3 {
    .location-details{
 
     display: flex;
-    .map {
-        width: 300%;
-        height: 400px;
+    @media screen and (max-width:1024px) {
+        display: block;
     }
+      
+
+    }
+    iframe{
+       
+        @media screen and (max-width:1024px) {
+           width: auto;
+        height: auto;}
+       }
     .about-office {
         margin-left: 27px;
         display: block;
-
+        @media screen and (max-width:1024px) {
+          
+            margin-left: 0px;
+            margin-top: 20px;
+        }
+        }
         ul {
             display: flex;
             list-style-type: none;
@@ -77,9 +90,9 @@ h3 {
             }
         }
     }
-   }
+   
 
-}
+
 
 .customers {
     margin-top: 100px;
@@ -89,14 +102,23 @@ h3 {
         grid-row: 20px;
         grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
         margin: 44px 0px 80px 0px;
+        @media screen and (max-width:1024px) {
+            padding-left: 58px;
+        }
     }
 }
 .message{
     margin-top: 100px;
     .form-details{
         display: flex;
+        @media screen and (max-width:1024px) {
+            display: block;
+        }
         form{
-            width: 74%;
+            width: 50%;
+            @media screen and (max-width:1024px) {
+                width: 100% !important;
+            }
             button{
                 border: none;
                 padding: 3px 8px;
@@ -106,6 +128,12 @@ h3 {
                 font-size: 21px;
                 border-radius: 5px;
                 margin: 12px 0px;
+            }
+        }
+        .card-list{
+            width: 50%;
+            @media screen and (max-width:1024px) {
+                width: 100% !important;
             }
         }
         .slide{
